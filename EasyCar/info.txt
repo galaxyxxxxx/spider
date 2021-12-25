@@ -1,0 +1,9 @@
+# 热门车型
+url1 = 'serial/search_hot_serials?cid=508&param=%7B%22adCigdcid%22%3A%2277ef0987d7d23057ae8e4db10a321397%26page%3DmJrtaCNwzyQAjcBzWQYSF3EKA3z8448i1638178888342%22%2C%22type%22%3A5%2C%22adTime%22%3A%222021-11-29%22%2C%22advertPage%22%3A%22mJrtaCNwzyQAjcBzWQYSF3EKA3z8448i1638178888342%22%2C%22num%22%3A20%7D'
+# cid: 508
+# param: {"adCigdcid": "77ef0987d7d23057ae8e4db10a321397&page=mJrtaCNwzyQAjcBzWQYSF3EKA3z8448i1638178888342", "type": 5, "adTime": "2021-11-29", "advertPage": "mJrtaCNwzyQAjcBzWQYSF3EKA3z8448i1638178888342", "num": 20}
+
+# 热门品牌
+url2 = 'master/search_hot_masters?cid=508&param=%7B%22type%22%3A2%2C%22adCigdcid%22%3A%2277ef0987d7d23057ae8e4db10a321397%26page%3DmJrtaCNwzyQAjcBzWQYSF3EKA3z8448i1638178888342%22%2C%22adTime%22%3A%222021-11-29%22%2C%22advertPage%22%3A%22mJrtaCNwzyQAjcBzWQYSF3EKA3z8448i1638178888342%22%7D'
+# cid : 508
+# param : {"type": 2, "adCigdcid": "77ef0987d7d23057ae8e4db10a321397&page=mJrtaCNwzyQAjcBzWQYSF3EKA3z8448i1638178888342", "adTime": "2021-11-29", "advertPage": "mJrtaCNwzyQAjcBzWQYSF3EKA3z8448i1638178888342"}
