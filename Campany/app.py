@@ -28,17 +28,20 @@ class Spider():
     data = xlrd.open_workbook('data.xlsx')
     sheet = data.sheet_by_index(3)
 
-    res_txt = open('res.txt','w')
+    
 
     for i in range(sheet.nrows):
       row = sheet.row_values(i) 
       name_cn = row[0] #get campany chinese name
       name_en = self.get_name_en(name_cn)
+
+      res_txt = open('res.txt','w+')
       res_txt.write(name_en + '\n')
+      res_txt.close()
+
       sleep(1)
-      # print(name_cn, name_en)
     
-    res_txt.close()
+    
     return 0
 
   def get_id(self, name_cn):
