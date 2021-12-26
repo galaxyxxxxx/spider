@@ -35,7 +35,7 @@ class Spider():
       name_cn = row[0] #get campany chinese name
       name_en = self.get_name_en(name_cn)
 
-      res_txt = open('res.txt','w+')
+      res_txt = open('res.txt','a+')
       res_txt.write(name_en + '\n')
       res_txt.close()
 
